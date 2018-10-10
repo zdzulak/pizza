@@ -46,12 +46,12 @@
 					<fieldset>
 						<div>
 							<label for="quantity">Number of Pizzas</label>
-							<input type="number" name="quantity" id="quantity" required/>
+							<input type="number" name="quantity" id="quantity" />
 						</div>
 						<!-- Asking for the pizza size -->
 						<div>
 							<label for="size">Size</label>
-							<select name="size" id="size" required>
+							<select name="size" id="size" >
 								<option value=null>-------</option>
 								<option value="small">Small</option>
 								<option value="medium">Medium</option>
@@ -137,7 +137,7 @@
 					<!-- Asking to input credit card number -->
 					<div>
 						<label for="ccNumber">Credit Card Number</label>
-						<input id="ccNumber" type="text" name="ccNumber" placeholder="0000-0000-0000-0000" required />
+						<input id="ccNumber" type="text" name="ccNumber" placeholder="0000-0000-0000-0000" />
 					</div>
 					<!-- Asking to input credit card expiration year -->
 					<div>
