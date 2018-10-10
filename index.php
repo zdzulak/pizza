@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Order A Pizza - Pizza Time Pizza</title>
+		<title>Order A Pizza | Pizza Time Pizza</title>
 		<link rel="stylesheet" href="css/stles.css" />
 	</head>
 	<body>
@@ -51,7 +51,7 @@
 						<!-- Asking for the pizza size -->
 						<div>
 							<label for="size">Size</label>
-							<select name="size" id="size" >
+							<select name="size" id="size">
 								<option value=null>-------</option>
 								<option value="small">Small</option>
 								<option value="medium">Medium</option>

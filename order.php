@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Subscribe | COMP1002 HTML, CSS, and JS Fundamentals</title>
+		<title>Order Review | Pizza Time Pizza</title>
 		<meta name="author" content="Zackary Zulak" />
 		<meta name="description" content="Page to confirm order">
 		<link rel="stylesheet" href="css/styles.css" />
@@ -19,9 +19,10 @@
 				<h3>Thank You for Subscribing</h3>
 <!-- STEP 10: We will add some script to run on the server when this page is called inside the below PHP delimiter tags -->
 <?php
-$emailAddress = $_GET['emailAddress'];
+$fname = $_GET['fname'];
+$lname = $_GET['lname'];
 
-	echo ('<p>Your email address, ' .$emailAddress. ' has been added to our list of subscribers.</p>');
+	echo ('<p>Thank you, ' .$fname. ' ' .$lname. ', you have been added to our list of subscribers.</p>');
 // STEP 11: Capture the value of the emailAddress INPUT from the index.php page by defining a PHP variable called, '$emailAddress'
 
 // STEP 12: Set the above variable to equal $_GET['emailAddress'], and end the line with a semicolon (;)
