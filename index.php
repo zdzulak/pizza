@@ -17,12 +17,12 @@
 					<!-- Asking to input first name -->
 					<div>
 						<label for="fname">First Name</label>
-						<input type="text" names="fname" id="fname" size="25" placeholder="type first name here" />
+						<input type="text" name="fname" id="fname" size="25" placeholder="type first name here" />
 					</div>
 					<!-- Asking to input Last name -->
 					<div>
 						<label for="lname">Last Name</label>
-						<input type="text" names="lname" id="lname" size="25" placeholder="type last name here" />
+						<input type="text" name="lname" id="lname" size="25" placeholder="type last name here" />
 					</div>
 					<!-- Asking to input phone number -->
 					<div>
@@ -36,7 +36,7 @@
 					</div>
 					<div>
 							<label for="address">Address</label>
-							<input type="address" name="address" id="address" size="25" placeholder="10 Address Street" />
+							<input type="text" name="address" id="address" size="25" placeholder="10 Address Street" />
 					</div>
 				</fieldset>
 				<!-- Fieldset for the pizza -->
@@ -49,7 +49,7 @@
 					</div>
 					<!-- Asking for the pizza size -->
 					<div>
-						<label for "size">Size</label>
+						<label for="size">Size</label>
 						<select name="size" id="size">
 							<option value=null>-------</option>
 							<option value="small">Small</option>
