@@ -5,7 +5,7 @@
 		<title>Order Review | Pizza Time Pizza</title>
 		<meta name="author" content="Zackary Zulak" />
 		<meta name="description" content="Page to confirm order">
-		<link rel="stylesheet" href="css/styles.css" />
+		<!-- <link rel="stylesheet" href="css/styles.css" /> -->
 	</head>
 	<body>
 		<!-- Page-level header -->
@@ -16,7 +16,7 @@
 		<!-- Page-level main content -->
 		<main>
 			<section>
-				<h3>Thank you for odering from us.</h3>
+				<h3>Thank you for ordering from us.</h3>
 <?php
 $fname = $_GET['fname'];
 $lname = $_GET['lname'];
@@ -24,7 +24,7 @@ $address = $_GET['address'];
 $quantity = $_GET['quantity'];
 $size = $_GET['size'];
 
-	echo ('<p>Thank you, ' .$fname. ' ' .$lname. ', your order of ' .$quantity. ' ' .$size. ' pizza(s) will arrive at ' .$address. ' .</p>');
+	echo ('<p>Thank you, ' .$fname. ' ' .$lname. ', your order of ' .$quantity. ' ' .$size. ' pizza(s) will arrive at ' .$address. ' as soon as it is ready! :)</p>');
 ?>
 			</section>
 		</main>
