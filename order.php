@@ -24,7 +24,7 @@ $address = $_GET['address'];
 $quantity = $_GET['quantity'];
 $size = $_GET['size'];
 
-	echo ('<p>Thank you, ' .$fname. ' ' .$lname. ', your order of ' .$quantity. ' ' .$size. ' pizza(s) will arrive at ' .$address. ' as soon as it is ready! :)</p>');
+	echo ('<p>Thank you ' .$fname. ' ' .$lname. ', your order of ' .$quantity. ' ' .$size. ' pizza(s) will arrive at ' .$address. ' as soon as it is ready! :)</p>');
 ?>
 			</section>
 		</main>
