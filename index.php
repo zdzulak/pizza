@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Order A Pizza - Pizza Time Pizza</title>
+		<link rel="stylesheet" href="css/stles.css" />
 	</head>
 	<body>
 		<header>
@@ -34,7 +35,6 @@
 						<input type="email" name="email" id="email" size="25" placeholder="name@domain.com" />
 					</div>
 					<div>
-						<div>
 							<label for="address">Address</label>
 							<input type="address" name="address" id="address" size="25" placeholder="10 Address Street" />
 					</div>
@@ -58,9 +58,9 @@
 						</select>
 					</div>
 
+					<legend>Meat Toppings</legend>
+					<!-- Select any 3 different meats -->
 					<div>
-						<legend>Meat Toppings</legend>
-						<!-- Select any 3 different meats -->
 						<input type="checkbox" name="topping1" id="meat1" value="pepperoni" />
 						<label for="meat1">Pepperoni</label>
 
@@ -71,9 +71,9 @@
 						<label for="meat3">Bacon</label>
 					</div>
 
+					<legend>Veggie Toppings</legend>
+					<!-- Select any 3 different meats -->
 					<div>
-						<legend>Veggie Toppings</legend>
-						<!-- Select any 3 different meats -->
 						<input type="checkbox" name="topping4" id="veg1" value="pepper" />
 						<label for="veg1">Pepper</label>
 
@@ -84,29 +84,29 @@
 						<label for="veg3">Olive</label>
 					</div>
 
+					<legend>Cheese</legend>
+					<!-- Select between 3 different cheese types -->
 					<div>
-						<legend>Cheese</legend>
-						<!-- Select between 3 different cheese types -->
-						<input type="radio" name="regCheese" id="regCheese" value="Regular Cheese" />
+						<input type="radio" name="cheese" id="regCheese" value="Regular Cheese" />
 						<label for="regCheese">Regular Cheese</label>
 
-						<input type="radio" name="dubCheese" id="dubCheese" value="Double Cheese" />
+						<input type="radio" name="cheese" id="dubCheese" value="Double Cheese" />
 						<label for="dubCheese">Double Cheese</label>
 
-						<input type="radio" name="tripCheese" id="tripCheese" value="Triple Cheese" />
+						<input type="radio" name="cheese" id="tripCheese" value="Triple Cheese" />
 						<label for="tripCheese">Triple Cheese</label>
 					</div>
 
+					<legend>Crust Type</legend>
+					<!-- Select between 3 different crust types -->
 					<div>
-						<legend>Crust Type</legend>
-						<!-- Select between 3 different crust types -->
-						<input type="radio" name="regCrust" id="regCrust" value="Regular Cheese" />
+						<input type="radio" name="crust" id="regCrust" value="Regular Cheese" />
 						<label for="regCrust">Regular Crust</label>
 
-						<input type="radio" name="stfCrust" id="stfCrust" value="Stuffed Crust" />
+						<input type="radio" name="crust" id="stfCrust" value="Stuffed Crust" />
 						<label for="stfCrust">Stuffed Crust</label>
 
-						<input type="radio" name="thnCrust" id="thnCrust" value="Thin Crust" />
+						<input type="radio" name="crust" id="thnCrust" value="Thin Crust" />
 						<label for="thnCrust">Thin Crust</label>
 					</div>
 				</fieldset>
@@ -162,10 +162,10 @@
 				</fieldset>
 				<!-- Fieldset for feedback -->
 				<fieldset>
-					<div>
 					<legend>Feedback</legend>
+					<div>
 						<label for="comments">Comments</label>
-						<textarea type="comments" name="comments" id="comments" />Type comments here.</textarea>
+						<textarea type="comments" name="comments" id="comments" >Type comments here.</textarea>
 					</div>
 				</fieldset>
 
@@ -181,7 +181,7 @@
 					</div>
 					<!-- Reset Button -->
 					<div>
-					<button type="reset">Reset Order</button>
+					<button type="reset">Reset Page</button>
 					</div>
 				</section>
 			</form>
