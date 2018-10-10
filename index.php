@@ -43,72 +43,82 @@
 				<fieldset>
 					<legend>Pizza Preferences</legend>
 					<!-- Asking for the number of pizzas -->
-					<div>
-						<label for="quantity">Number of Pizzas</label>
-						<input type="number" name="quantity" id="quantity" />
-					</div>
-					<!-- Asking for the pizza size -->
-					<div>
-						<label for="size">Size</label>
-						<select name="size" id="size">
-							<option value=null>-------</option>
-							<option value="small">Small</option>
-							<option value="medium">Medium</option>
-							<option value="large">Large</option>
-						</select>
-					</div>
+					<fieldset>
+						<div>
+							<label for="quantity">Number of Pizzas</label>
+							<input type="number" name="quantity" id="quantity" />
+						</div>
+						<!-- Asking for the pizza size -->
+						<div>
+							<label for="size">Size</label>
+							<select name="size" id="size">
+								<option value=null>-------</option>
+								<option value="small">Small</option>
+								<option value="medium">Medium</option>
+								<option value="large">Large</option>
+							</select>
+						</div>
+					</fieldset>
 
-					<legend>Meat Toppings</legend>
-					<!-- Select any 3 different meats -->
-					<div>
-						<input type="checkbox" name="topping1" id="meat1" value="pepperoni" />
-						<label for="meat1">Pepperoni</label>
+					<fieldset>
+						<legend>Meat Toppings</legend>
+						<!-- Select any 3 different meats -->
+						<div>
+							<input type="checkbox" name="topping1" id="meat1" value="pepperoni" />
+							<label for="meat1">Pepperoni</label>
 
-						<input type="checkbox" name="topping2" id="meat2" value="beef" />
-						<label for="meat2">Beef</label>
+							<input type="checkbox" name="topping2" id="meat2" value="beef" />
+							<label for="meat2">Beef</label>
 
-						<input type="checkbox" name="topping3" id="meat3" value="bacon" />
-						<label for="meat3">Bacon</label>
-					</div>
+							<input type="checkbox" name="topping3" id="meat3" value="bacon" />
+							<label for="meat3">Bacon</label>
+						</div>
+					</fieldset>
 
-					<legend>Veggie Toppings</legend>
-					<!-- Select any 3 different meats -->
-					<div>
-						<input type="checkbox" name="topping4" id="veg1" value="pepper" />
-						<label for="veg1">Pepper</label>
+					<fieldset>
+						<legend>Veggie Toppings</legend>
+						<!-- Select any 3 different meats -->
+						<div>
+							<input type="checkbox" name="topping4" id="veg1" value="pepper" />
+							<label for="veg1">Pepper</label>
 
-						<input type="checkbox" name="topping5" id="veg2" value="mushroom" />
-						<label for="veg2">Mushroom</label>
+							<input type="checkbox" name="topping5" id="veg2" value="mushroom" />
+							<label for="veg2">Mushroom</label>
 
-						<input type="checkbox" name="topping6" id="veg3" value="olive" />
-						<label for="veg3">Olive</label>
-					</div>
+							<input type="checkbox" name="topping6" id="veg3" value="olive" />
+							<label for="veg3">Olive</label>
+						</div>
+					</fieldset>
 
-					<legend>Cheese</legend>
-					<!-- Select between 3 different cheese types -->
-					<div>
-						<input type="radio" name="cheese" id="regCheese" value="Regular Cheese" />
-						<label for="regCheese">Regular Cheese</label>
+					<fieldset>
+						<legend>Cheese</legend>
+						<!-- Select between 3 different cheese types -->
+						<div>
+							<input type="radio" name="cheese" id="regCheese" value="Regular Cheese" />
+							<label for="regCheese">Regular Cheese</label>
 
-						<input type="radio" name="cheese" id="dubCheese" value="Double Cheese" />
-						<label for="dubCheese">Double Cheese</label>
+							<input type="radio" name="cheese" id="dubCheese" value="Double Cheese" />
+							<label for="dubCheese">Double Cheese</label>
 
-						<input type="radio" name="cheese" id="tripCheese" value="Triple Cheese" />
-						<label for="tripCheese">Triple Cheese</label>
-					</div>
+							<input type="radio" name="cheese" id="tripCheese" value="Triple Cheese" />
+							<label for="tripCheese">Triple Cheese</label>
+						</div>
+					</fieldset>
 
-					<legend>Crust Type</legend>
-					<!-- Select between 3 different crust types -->
-					<div>
-						<input type="radio" name="crust" id="regCrust" value="Regular Cheese" />
-						<label for="regCrust">Regular Crust</label>
+					<fieldset>
+						<legend>Crust Type</legend>
+						<!-- Select between 3 different crust types -->
+						<div>
+							<input type="radio" name="crust" id="regCrust" value="Regular Cheese" />
+							<label for="regCrust">Regular Crust</label>
 
-						<input type="radio" name="crust" id="stfCrust" value="Stuffed Crust" />
-						<label for="stfCrust">Stuffed Crust</label>
+							<input type="radio" name="crust" id="stfCrust" value="Stuffed Crust" />
+							<label for="stfCrust">Stuffed Crust</label>
 
-						<input type="radio" name="crust" id="thnCrust" value="Thin Crust" />
-						<label for="thnCrust">Thin Crust</label>
-					</div>
+							<input type="radio" name="crust" id="thnCrust" value="Thin Crust" />
+							<label for="thnCrust">Thin Crust</label>
+						</div>
+					</fieldset>
 				</fieldset>
 				<!-- Fieldset for inputting credit card info -->
 				<fieldset>
@@ -165,7 +175,7 @@
 					<legend>Feedback</legend>
 					<div>
 						<label for="comments">Comments</label>
-						<textarea type="comments" name="comments" id="comments" >Type comments here.</textarea>
+						<textarea name="comments" id="comments" >Type comments here.</textarea>
 					</div>
 				</fieldset>
 
