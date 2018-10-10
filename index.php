@@ -10,14 +10,14 @@
 			<h1>Pizza Time Pizza</h1>
 		</header>
 		<main>
-			<form>
+			<form action="order.php" method="get">
 				<!-- Fieldset for personal information -->
 				<fieldset>
 					<legend>Personal Information</legend>
 					<!-- Asking to input first name -->
 					<div>
 						<label for="fname">First Name</label>
-						<input type="text" name="fname" id="fname" size="25" placeholder="type first name here" />
+						<input type="text" name="fname" id="fname" size="25" placeholder="type first name here" required/>
 					</div>
 					<!-- Asking to input Last name -->
 					<div>
@@ -36,7 +36,7 @@
 					</div>
 					<div>
 							<label for="address">Address</label>
-							<input type="text" name="address" id="address" size="25" placeholder="10 Address Street" />
+							<input type="text" name="address" id="address" size="25" placeholder="100 Address Street" required/>
 					</div>
 				</fieldset>
 				<!-- Fieldset for the pizza -->
@@ -46,12 +46,12 @@
 					<fieldset>
 						<div>
 							<label for="quantity">Number of Pizzas</label>
-							<input type="number" name="quantity" id="quantity" />
+							<input type="number" name="quantity" id="quantity" required/>
 						</div>
 						<!-- Asking for the pizza size -->
 						<div>
 							<label for="size">Size</label>
-							<select name="size" id="size">
+							<select name="size" id="size" required>
 								<option value=null>-------</option>
 								<option value="small">Small</option>
 								<option value="medium">Medium</option>
@@ -137,7 +137,7 @@
 					<!-- Asking to input credit card number -->
 					<div>
 						<label for="ccNumber">Credit Card Number</label>
-						<input id="ccNumber" type="text" name="ccNumber" placeholder="0000-0000-0000-0000" />
+						<input id="ccNumber" type="text" name="ccNumber" placeholder="0000-0000-0000-0000" required />
 					</div>
 					<!-- Asking to input credit card expiration year -->
 					<div>
