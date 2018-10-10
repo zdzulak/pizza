@@ -180,6 +180,7 @@
 				</fieldset>
 
 				<section>
+					<h3>Pizza Time Pizza Preview</h3>
 					<!-- Pizza Picture -->
 					<div>
 					<img src="images/pizza.png" alt="Pizza in a box" height="250" width="350" />
